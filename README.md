@@ -32,7 +32,11 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
 1. Follow the process described in the course to `eb init` a new application 
 2. `eb create` a new environment to deploy your image-filter service! 
-3. make sure that below file contains deploy section as below 
+3. make sure that below file contains deploy section as below contains 
+```
+deploy:
+  artifact: ./www/Archive.zip
+```
 
 ```
 root@vm:~/image-filter-application# cat .elasticbeanstalk/config.yml
