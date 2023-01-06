@@ -57,3 +57,8 @@ global:
 ## Output
 
 Endpoint link
+http://udacity-project-dev-dev.us-east-1.elasticbeanstalk.com/
+OR
+http://udacity.thecoderocket.com/
+
+
