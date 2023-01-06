@@ -32,14 +32,14 @@ root@vm:~/image-filter-application# cat .elasticbeanstalk/config.yml
 
 branch-defaults:
   master:
-    environment: new-app-dev
+    environment: Udacity-Project-Dev-dev
     group_suffix: null
 deploy:
   artifact: ./www/Archive.zip
 global:
-  application_name: new-app
+  application_name: Udacity-Project-Dev
   branch: null
-  default_ec2_keyname: bishoy-udacity
+  default_ec2_keyname: vockey
   default_platform: Node.js 16 running on 64bit Amazon Linux 2
   default_region: us-east-1
   include_git_submodules: true
